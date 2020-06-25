@@ -7,6 +7,6 @@ body {
   padding: 0;
   max-height: 45px;
 }
-.navbar-header{
-  width: 15%;
+.navbar-header img{
+  height: 45px;
 }

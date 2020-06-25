@@ -220,8 +220,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 240px;
-    padding-bottom: 190px;
+	padding-top: 245px;
+    padding-bottom: 200px;
 	text-align: center;
 }
 /* Features Section */
@@ -607,4 +607,29 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+@media (max-width: 995px) {
+#menu.navbar-default .navbar-nav > li > a {
+	margin: 9px 10px 0 10px;
+}
+}
+@media (max-width: 767px) {
+	.navbar-header img {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 440px) {
+	.intro h1{
+		font-size: 40px;
+	}
+	header .intro-text {
+		padding-top: 182px;
+		padding-bottom: 145px;
+	}
+}
+@media (max-width: 375px) {
+	.intro h1{
+		font-size: 33px;
+	}
 }
