@@ -8,7 +8,7 @@ export class testimonials extends Component {
           <div className="section-title text-center">
             <h2>What our clients say</h2>
           </div>
-          <div className="row">
+          <div className="row" style={{ display: "flex", flexWrap: "wrap"}}>
 
           {this.props.data ? this.props.data.map(d => 
             <div className="col-md-4">

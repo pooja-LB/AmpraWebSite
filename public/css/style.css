@@ -97,8 +97,8 @@ hr {
 	left: 0;
 	bottom: -1px;
 	width: 0;
-	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	height: 3px;
+	background: linear-gradient(77deg, rgba(136,3,83,1) 0%, rgba(111,37,121,1) 55%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -114,8 +114,8 @@ hr {
 	left: 0 !important;
 	bottom: -1px !important;
 	width: 100% !important;
-	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	height: 3px !important;
+	background: linear-gradient(77deg, rgba(136,3,83,1) 0%, rgba(111,37,121,1) 55%);
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(77deg, rgba(136,3,83,1) 0%, rgba(111,37,121,1) 55%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +155,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #880353;
+	/* background-image: linear-gradient(113deg, rgba(136,3,83,1) 36%, rgba(111,37,121,1) 86%); */
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -167,9 +167,10 @@ hr {
 	border: 0;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #fff;
+	color: #8A0051;
 	background-image: none;
-	background-color: #6372ff;
+	border: 2px solid #8A0051 !important;
+	background-color: white;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -186,7 +187,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(http://ampra.in/wp-content/themes/Parallax-One/images/background-images/background.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -198,12 +199,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
-	color: #fff;
-	font-size: 82px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-top: 0;
-	margin-bottom: 10px;
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 42px;
 }
 .intro h1 span {
 	font-weight: 800;
@@ -218,8 +220,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
+	padding-top: 240px;
+    padding-bottom: 190px;
 	text-align: center;
 }
 /* Features Section */
@@ -255,7 +257,7 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(77deg, rgba(136,3,83,1) 0%, rgba(111,37,121,1) 55%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -270,7 +272,7 @@ header .intro-text {
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #880362;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
@@ -289,19 +291,21 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: #f6f6f6;
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
 	color: #fff;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
 }
-#services h2 {
+/* #services h2 {
 	color: #fff;
-}
+} */
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	/* background: rgba(255,255,255,.3); */
+	background: linear-gradient(77deg, rgba(136,3,83,1) 0%, rgba(111,37,121,1) 55%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -313,7 +317,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(113deg, rgba(136,3,83,1) 36%, rgba(111,37,121,1) 86%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -321,10 +325,10 @@ header .intro-text {
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	color: #fff;
 }
 #services p {
-	color: rgba(255,255,255,.75);
+	/* color: rgba(255,255,255,.75); */
+	color: #333;
 }
 #services .service-desc {
 	margin-bottom: 40px;
@@ -347,7 +351,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	background: linear-gradient(151deg, rgba(136,3,83,0.6026785714285714) 32%, rgba(111,37,121,0.5998774509803921) 56%);
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -377,16 +381,35 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: linear-gradient(113deg, rgba(136,3,83,1) 36%, rgba(111,37,121,1) 87%);
+	/* background: #f6f6f6; */
 }
 #testimonials i {
 	color: #e6e6e6;
 	font-size: 32px;
 	margin-bottom: 20px;
 }
+#careers{
+	padding: 100px 0;
+	text-align: left;
+}
+#careers h2:after{
+	left: 0;
+	margin: 0;
+}
+#careers h3{
+	margin-bottom: 1.6em;
+}
+#careers h4{
+	margin-bottom: 1em;
+}
 .testimonial {
 	position: relative;
 	padding: 20px;
+	color: white;
+}
+.testimonial .testimonial-meta{
+	color: white;
 }
 .testimonial-image {
 	float: left;
@@ -413,6 +436,13 @@ header .intro-text {
 	font-weight: 600;
 	color: #666;
 }
+#testimonials .section-title h2::after {
+	background: rgba(255,255,255,.3);
+}
+#testimonials .section-title h2 {
+	color: white;
+}
+
 /* Team Section */
 #team {
 	padding: 100px 0;
@@ -434,7 +464,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(113deg, rgba(136,3,83,1) 36%, rgba(111,37,121,1) 87%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
